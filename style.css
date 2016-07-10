@@ -73,6 +73,7 @@ body{
     background: #2aad29;
     position: relative;
     border-bottom-left-radius: 200px;
+    transition: all 0.7s linear
 }
 
 
@@ -159,6 +160,7 @@ body{
         right: 0px;
         width: 100%;
     }
+  
 }
 
 @media (max-width: 580px) {
@@ -244,15 +246,19 @@ body{
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 15px;
-    position: relative;
     max-width: 1000px;
-   
+    transition: all 0.7s ease-in;
+}
+
+@media (max-width: 460px) {
+    .post{
+        font-size: 15px;
+    }
 }
 
 
 #conteiner{
     position: relative;
-    height:1000px;
     bottom: 0;
     overflow: hidden; 
 }
